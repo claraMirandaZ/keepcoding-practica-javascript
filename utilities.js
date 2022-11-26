@@ -4,20 +4,50 @@ Para eso debemos utilizar un fichero package.json.
 */
 
 export const students = [{
-  age: 32,
+  age: 30,
   examScores: [],
   gender: 'male',
-  name: 'Edu'
+  name: 'Jorge'
 },
 {
-  age: 29,
+  age: 33,
   examScores: [],
   gender: 'female',
-  name: 'Silvia'
+  name: 'Lidya'
+},
+{
+  age: 18,
+  examScores: [],
+  gender: 'female',
+  name: 'Helena'
+},
+{
+  age: 39,
+  examScores: [],
+  gender: 'male',
+  name: 'Nacho'
+},
+{
+  age: 44,
+  examScores: [],
+  gender: 'male',
+  name: 'Ángel'
+},
+{
+  age: 36,
+  examScores: [],
+  gender: 'female',
+  name: 'Carlota'
+},
+{
+  age: 21,
+  examScores: [],
+  gender: 'female',
+  name: 'Esther'
 }]
 
-export const availableFemaleNames = ['Cecilia', 'Ana', 'Luisa', 'Silvia', 'Isabel', 'Virginia'];
+export const availableFemaleNames = ['Menchu', 'Lola', 'Charo', 'Pilar', 'Nieves'];
 
-export const availableMaleNames = ['Pepe', 'Juan', 'Víctor', 'Leo', 'Francisco', 'Carlos'];
+export const availableMaleNames = ['Eduardo', 'Juan', 'Ricardo', 'Víctor', 'Manu'];
 
 export const availableGenders = ['male', 'female'];
