@@ -114,10 +114,10 @@ function youngestStudent() {
 }
 
 // 12. Mostrar por consola la edad media de todos los alumnos de la clase.
-function avg() {
-  let average = students.reduce((a, b) => a + b.age, 0) / students.length;
+function average() {
+  let avg = students.reduce((a, b) => a + b.age, 0) / students.length;
 
-  console.log("The average of all the students' ages is", Math.round(average));
+  console.log("The average of all the students' ages is", Math.round(avg));
 }
 
 // 13. Mostrar por consola la edad media de las chicas de la clase.
