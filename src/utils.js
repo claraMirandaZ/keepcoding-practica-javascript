@@ -66,9 +66,7 @@ export const availableMaleNames = [
 
 export const availableGenders = ['male', 'female'];
 
-/*
-Función para calcular un número aleatorio
-*/
+// Función para calcular un número aleatorio
 export function getRandomNumber(min, max) {
   const randomNumber = Math.floor(Math.random() * (max - min)) + min;
   return randomNumber;

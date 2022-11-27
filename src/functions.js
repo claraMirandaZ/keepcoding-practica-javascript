@@ -4,7 +4,6 @@ import {
   availableMaleNames,
   availableGenders,
   getRandomNumber,
-  instructions,
 } from './utils.js';
 
 /* Requisitos indispensables */
