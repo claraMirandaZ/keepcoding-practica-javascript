@@ -3,8 +3,9 @@ import {
   availableFemaleNames,
   availableMaleNames,
   availableGenders,
-  calculateRandomNumber,
-} from './utilities.js';
+  getRandomNumber,
+  instructions,
+} from './utils.js';
 
 /* Requisitos indispensables */
 // 1. Mostrar en formato de tabla todos los alumnos.
@@ -137,7 +138,7 @@ export function girlsAvg() {
 // 14. Añadir nueva nota a los alumnos. Por cada alumno de la clase tendremos que calcular una nota de forma aleatoria (un número entre 0 y 10) y añadirla a su listado de notas.
 export function addRandomScore() {
   students.forEach((newScore) => {
-    newScore.examScores.push(calculateRandomNumber(0, 10));
+    newScore.examScores.push(getRandomNumber(0, 10));
   });
 
   console.log("The students' new scores are", students);
