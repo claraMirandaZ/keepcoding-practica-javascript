@@ -1,6 +1,6 @@
 <h1 align=center>Práctica de introducción a JavaScript: classroom management</h1>
 
-## Guía de inicio rápido
+### Guía de inicio rápido
 
 Para ejecutar la aplicación basta con tener instalado [Node JS](https://nodejs.org/), estar posicionado en la carpeta `src (source)` e introducir en la consola el siguiente comando:
 
