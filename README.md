@@ -1,5 +1,15 @@
 <h1 align=center>Práctica de introducción a JavaScript: classroom management</h1>
 
+## Guía de inicio rápido
+
+Para ejecutar la aplicación basta con tener instalado [Node JS](https://nodejs.org/), estar posicionado en la carpeta `src (source)` e introducir en la consola el siguiente comando:
+
+```
+node main.js
+```
+
+## Enunciado
+
 Necesitamos desarrollar una aplicación hecha con javascript que nos ayude a gestionar los alumnos de nuestra clase.
 
 Partiremos de un listado de alumnos inicial:
